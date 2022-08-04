@@ -1,8 +1,7 @@
 FROM openjdk:15
 
+COPY target/yildiz.jar yildiz.jar
 
-COPY target/yeni.jar /yeni.jar
-WORKDIR yeni.jar
-RUN["java","-jar","/yeni.jar"]
 
+ENTRYPOINT ["java", "-jar","yildiz.jar"]
 

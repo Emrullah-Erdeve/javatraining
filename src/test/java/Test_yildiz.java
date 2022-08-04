@@ -5,21 +5,21 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class test_yildiz {
+public class Test_yildiz {
     private buraii.yildiz yildiz=new yildiz();
     @Test
-    public void neagatifgirdim(){
+    public void negatifGirdim(){
 
         assertEquals("pozitifff olsun",yildiz.yildizlar("-5"));
     }
     @Test
-    public void qiseyararmi(){
+    public void yararmiQİse(){
 
-        assertEquals("bb",yildiz.qisecik("q"));
+        assertEquals("bb",yildiz.qİseCik("q"));
     }
 
     @Test //2 layer test
-    public void testyildizlar2() {
+    public void testYildizlar2() {
         Assert.assertEquals("  *\n ***\n",yildiz.yildizlar("2"));
     }
 }

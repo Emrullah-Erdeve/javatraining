@@ -37,13 +37,13 @@ public  class yildiz {
             return a;
         }
     }
-    public static String qisecik(String mesaj){
-        String a=null;
+    public static String qİseCik(String mesaj){
+        String cikiyoruz=null;
         if (mesaj.equals("q")) {
-            a="bb";
-            return a;
+            cikiyoruz="bb";
+            return cikiyoruz;
         }
-        return a;
+        return cikiyoruz;
     }
 
     public static void main (String[]args) throws InterruptedException {
@@ -54,7 +54,7 @@ public  class yildiz {
             Scanner input = new Scanner(System.in);
             String mesaj = input.next();
 
-         if(qisecik(mesaj)=="bb"){
+         if(qİseCik(mesaj)=="bb"){
              System.out.println("bb");
              break;
          }
