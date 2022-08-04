@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="yeni:jar">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="yeni.jar">
+      <element id="module-output" name="yeni" />
+    </root>
+  </artifact>
+</component>
